@@ -1,7 +1,9 @@
 # DS-LoadMusicStick
 Synology DS App um Musikdateien auf einen USB Stick für einen CD Wechsel zu laden
 
-Folgeprojekt zu https://github.com/Starwhooper/RandomFileCopy
+Mehr Details: https://www.synology-forum.de/threads/neue-app-loadmusicstick.58610/
+
+Vorherige Lösung: https://github.com/Starwhooper/RandomFileCopy
 
 Version 3.3 build 201604##
 * fix issue with 0byte files
