@@ -1,0 +1,15 @@
+#!/bin/sh
+ln -s ${SYNOPKG_PKGDEST} ${DOCUMENT_ROOT}/webman/3rdparty/${SYNOPKG_PKGNAME}
+
+##########PREPARE TO MANIPULATE APACHE
+#if [ ${DSMMAJOR} -ge 5 ] ; then
+#	HTTPDCONF="/etc/httpd/conf/httpd.conf-sys"
+#else
+#	HTTPDCONF="/usr/syno/apache/conf/httpd.conf-sys"
+#fi
+#cat "\n\n#next line needed for App \"LoadMusicStick\"" >>${HTTPDCONF}
+#cat "Include /volume1/@appstore/LoadMusicStick/*.conf" >>${HTTPDCONF}
+#/usr/syno/etc/rc.d/S97apache-sys.sh restart
+#######################################
+
+exit 0

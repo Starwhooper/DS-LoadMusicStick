@@ -1,0 +1,15 @@
+#!/bin/sh
+rm -f ${DOCUMENT_ROOT}/webman/3rdparty/${SYNOPKG_PKGNAME}
+
+##########PREPARE TO MANIPULATE APACHE
+#if [ ${DSMMAJOR} -ge 5 ] ; then
+#	HTTPDCONF="/etc/httpd/conf/httpd.conf-sys"
+#else
+#	HTTPDCONF="/usr/syno/apache/conf/httpd.conf-sys"
+#fi
+#grep -v LoadMusicStick ${HTTPDCONF} > /tmp/httpd.conf-sys
+#mv /tmp/httpd.conf-sys ${HTTPDCONF}
+#/usr/syno/etc/rc.d/S97apache-sys.sh restart
+#######################################
+
+exit 0
